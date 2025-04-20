@@ -85,6 +85,7 @@ public:
     QVBoxLayout *verticalLayout_14;
     QGroupBox *groupBox_2;
     QVBoxLayout *verticalLayout_16;
+    QLabel *label_tcp_server_ip;
     QLabel *label_tcp_status;
     QGroupBox *groupBox_3;
     QVBoxLayout *verticalLayout_13;
@@ -398,6 +399,12 @@ public:
         verticalLayout_16->setSpacing(6);
         verticalLayout_16->setContentsMargins(11, 11, 11, 11);
         verticalLayout_16->setObjectName(QStringLiteral("verticalLayout_16"));
+
+        label_tcp_server_ip = new QLabel(groupBox_2);
+        label_tcp_server_ip->setObjectName(QStringLiteral("label_tcp_server_ip"));
+        label_tcp_server_ip->setAlignment(Qt::AlignCenter);
+        verticalLayout_16->addWidget(label_tcp_server_ip);
+
         label_tcp_status = new QLabel(groupBox_2);
         label_tcp_status->setObjectName(QStringLiteral("label_tcp_status"));
         QFont font;
@@ -670,6 +677,7 @@ public:
         btn_snap_cam->setText(QApplication::translate("MainWindow", "Take Snapshot of Camera", nullptr));
         btn_show_semi_ui->setText(QApplication::translate("MainWindow", "Show Semi-Auto UI", nullptr));
         groupBox_2->setTitle(QApplication::translate("MainWindow", "TCP Connection", nullptr));
+        label_tcp_server_ip->setText(QApplication::translate("MainWindow", "Server IP: (None)", nullptr));
         label_tcp_status->setText(QApplication::translate("MainWindow", "Unconnected", nullptr));
         groupBox_3->setTitle(QApplication::translate("MainWindow", "Cube Placement", nullptr));
         btnResetCubes->setText(QApplication::translate("MainWindow", "Reset Cubes", nullptr));

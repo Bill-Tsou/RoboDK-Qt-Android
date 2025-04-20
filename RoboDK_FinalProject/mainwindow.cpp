@@ -46,6 +46,13 @@ MainWindow::MainWindow(QWidget *parent) :
         Sleep(100);
     }
 
+    // retrieve and display TCP server IP address
+    const QHostAddress &localhost = QHostAddress(QHostAddress::LocalHost);
+    for (const QHostAddress &address: QNetworkInterface::allAddresses()) {
+        if (address.protocol() == QAbstractSocket::IPv4Protocol && address != localhost)
+             ui->label_tcp_server_ip->setText("Server IP: " + address.toString());
+    }
+
     // initialize TCP Server
     server = new TcpServer(1234, this);
     connect(server, &TcpServer::ClientConnected, this, &MainWindow::client_connected);

@@ -340,10 +340,18 @@ Position</string>
             </property>
             <layout class="QVBoxLayout" name="verticalLayout_16">
              <item>
+              <widget class="QLabel" name="label_tcp_server_ip">
+               <property name="text">
+                <string>Server IP: (None)</string>
+               </property>
+              </widget>
+             </item>
+             <item>
               <widget class="QLabel" name="label_tcp_status">
                <property name="font">
                 <font>
                  <pointsize>12</pointsize>
+                 <weight>75</weight>
                  <bold>true</bold>
                 </font>
                </property>
