@@ -1,0 +1,16 @@
+# ignore files of AndroidClient project
+AndroidClient/*.iml
+AndroidClient/.gradle
+AndroidClient/local.properties
+AndroidClient/.idea/caches
+AndroidClient/.idea/libraries
+AndroidClient/.idea/modules.xml
+AndroidClient/.idea/workspace.xml
+AndroidClient/.idea/navEditor.xml
+AndroidClient/.idea/assetWizardSettings.xml
+AndroidClient/.DS_Store
+AndroidClient/build
+AndroidClient/captures
+AndroidClient/.externalNativeBuild
+AndroidClient/.cxx
+AndroidClient/local.properties
