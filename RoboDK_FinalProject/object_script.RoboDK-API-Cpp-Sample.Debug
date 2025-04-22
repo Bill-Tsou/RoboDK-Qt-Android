@@ -1,0 +1,15 @@
+INPUT(
+./debug\FinalProjectTypes.o
+./debug\TcpServer.o
+./debug\dialog_about.o
+./debug\dialog_semi_mode.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\robodk_api.o
+./debug\embedexample.o
+./debug\moc_TcpServer.o
+./debug\moc_dialog_about.o
+./debug\moc_dialog_semi_mode.o
+./debug\moc_mainwindow.o
+./debug\moc_embedexample.o
+);

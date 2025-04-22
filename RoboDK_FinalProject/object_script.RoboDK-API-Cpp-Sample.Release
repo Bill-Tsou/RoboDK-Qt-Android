@@ -1,0 +1,15 @@
+INPUT(
+./release\FinalProjectTypes.o
+./release\TcpServer.o
+./release\dialog_about.o
+./release\dialog_semi_mode.o
+./release\main.o
+./release\mainwindow.o
+./release\robodk_api.o
+./release\embedexample.o
+./release\moc_TcpServer.o
+./release\moc_dialog_about.o
+./release\moc_dialog_semi_mode.o
+./release\moc_mainwindow.o
+./release\moc_embedexample.o
+);

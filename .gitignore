@@ -14,3 +14,10 @@ AndroidClient/captures
 AndroidClient/.externalNativeBuild
 AndroidClient/.cxx
 AndroidClient/local.properties
+
+# ignore files of Qt RoboDK project
+RoboDK_FinalProject/build
+RoboDK_FinalProject/debug
+RoboDK_FinalProject/release
+RoboDK_FinalProject/.qmake.stash
+RoboDK_FinalProject//RoboDK-API-Cpp-Sample.pro.user
