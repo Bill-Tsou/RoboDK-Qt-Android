@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
                         button_connect.setText("Disconnect");
                         textView_state.setText("Connected");
+                        button_send.setEnabled(true);
                         SetControlEnable(true);
                     } catch (IOException e) {
                         e.printStackTrace();
@@ -139,6 +140,7 @@ public class MainActivity extends AppCompatActivity {
                         socket = null;
                         button_connect.setText("Connect");
                         textView_state.setText("Disconnected");
+                        button_send.setEnabled(false);
                         SetControlEnable(false);
                     } catch (IOException e) {
                         e.printStackTrace();
